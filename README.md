@@ -2,17 +2,36 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
 
-## Description
+## Descripción
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+**RVIA** Migración Módulo 
 
-## Installation
+Para hacer uso de este modulo, sigue los siguientes pasos:
+
+## Clonar el repositorio
+
+```bash
+$ git clone https://github.com/RVIA-REST/RVIAMI.git
+$ cd RVIAMI
+```
+
+## Variables de entorno
+
+Crea el archivo ``.env`` a partir del archivo ``.env.template``:
+
+```bash
+$ cp .env.template .env
+```
+
+Luego, edita el archivo ``.env`` con los valores apropiados para tu entorno.
+
+## Instalar dependencias
 
 ```bash
 $ npm install
 ```
 
-## Running the app
+## Ejecutar la aplicación
 
 ```bash
 # development
